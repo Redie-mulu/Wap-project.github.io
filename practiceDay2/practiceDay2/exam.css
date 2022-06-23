@@ -1,0 +1,60 @@
+/* example one */
+#main span {
+    color: red;
+}
+span{
+    color: violet;
+}
+p{
+    color: blue;
+}
+#main>span {
+    color: rgb(18, 18, 17);
+}
+h1{
+   font-size: 45px;
+}
+
+/* example two */
+#mission {
+    color: red;
+}
+p.special {
+    color: pink;
+}
+.special {
+    color: yellow;
+}
+.primary {
+    color: blue;
+}
+body.special{
+    color: aqua;
+}
+/* body    .special{
+    color: aqua;
+} */
+/* body p.special{
+    color: purple;
+} */
+
+/* example three */
+
+/* ul > li { background-color: blue; }
+li strong { color: red; }
+li > strong { color: green; }
+#ad li.line strong { text-decoration: underline; } */
+
+/* example four */
+
+#ad strong {
+    color: gold;
+    background: red;
+    font-size: 30px;
+}
+span {
+    color: pink;
+    background: gray;
+    font-size: 50px;
+}
+ 

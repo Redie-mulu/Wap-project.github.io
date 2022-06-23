@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./exam.css" type="text/css" rel="stylesheet" />
+    <!-- 3. Internal style sheets (in a <style> tag in the page header)
+            emmbaded-->
+    <style>
+        h1 {
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--it can work with out Id too-->
+    <div id="main">
+        <p><span>A</span></p>
+        <span>B</span>
+    </div>
+    <span>C</span>
+    <p><span>D</span></p>
+
+    <!-- another 
+        1. Browser's default styles (reference)
+        2. External style sheet files (in a <link> tag)
+       
+        4. Inline style (the style attribute of an HTML element)example-->
+    <!--inline style it will take this one!-->
+    <h1 style="font-size: 88px;">cascading style sheets!</h1>
+
+    <!--example two for now simple case-->
+
+    <!--specificity and conflicts
+        -Any HTML element mentioned in the rule scores 1 point
+        - Any class mentioned in the rule scores 10 points
+        - Any ID mentioned in the rule scores 100 points-->
+
+    <p id="mission" class="special primary">This is -----------</p>
+    <p class="special">2----------</p>
+    <div class="special">3--------</div>
+
+    <!--example three for now scare full-->
+    <div id="ad">
+        <p>Shop at <strong>Hardwick's Hardware</strong></p>
+        <ul>
+            <li class="line">
+                <em>The </em>
+                <strong>best</strong>
+                prices!
+            </li>
+            <li>
+                <em>
+                    <strong>Act while supplies last!</strong>
+                </em>
+            </li>
+        </ul>
+    </div>
+
+    <!--example four for now scare full-->
+    <div id="ad">
+        <p>Shop at <strong>Hardwick's Hardware</strong></p>
+        <ul>
+            <li class="line">
+                <em>The </em>
+                <strong>best</strong>
+                prices!
+            </li>
+            <li>
+                <em>
+                    <strong>
+                        <span>Act while supplies last!</span>
+                        </strong>
+                </em>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

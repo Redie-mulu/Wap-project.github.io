@@ -1,0 +1,47 @@
+p {
+    background-color: rgba(128, 128, 128, 0.254);
+    font-family: sans-serif;
+    color: rgba(165, 42, 42, 0.472);
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 12px, 10px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 10px;
+    /* background imag */
+    /* background-image: url(../cart3.svg);
+    background-repeat: no-repeat;
+    background-size: 100px-200px; */
+}
+h1{
+    color: purple;
+    text-decoration: underline;
+    text-shadow: -2px, 5px rgba(128, 128, 128, 0.226);
+}
+div {
+    color: violet;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* id selector */
+#dayTwoCollor {
+    color: black;
+    background-color: wheat;
+}
+/* class selector */
+.color1 {
+    color: yellow;
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#discription {
+    color: rgb(255, 0, 17);
+}
+ol{
+    list-style-type:lower-roman;
+}
+.test {
+    background-color: blue;
+}

@@ -1,0 +1,21 @@
+/* example five */
+p:hover{
+    color: red;
+    font-size: 50px;
+}
+a:visited{
+    color: aqua;
+    font-size: 30px;
+}
+a:link {
+    color: chocolate;
+}
+h2::before {
+    content: 'chapter';
+}
+h2::before {
+    font-size: 10px;
+}
+h2::first-letter {
+    font-size: 100px;
+}
