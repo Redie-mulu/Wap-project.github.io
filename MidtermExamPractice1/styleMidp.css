@@ -1,0 +1,45 @@
+/* body { 
+    /* background-color: yellow;  
+    color: magenta; 
+  } 
+  p { color: orange; } 
+  .central, .item { 
+    color: green;  
+  } 
+  #item { 
+    background-color: cyan; 
+    height: 10px;
+  } */
+
+div {
+
+    border: 1px solid black;
+
+}
+
+
+
+#b {
+
+    position: relative;
+
+    height: 200px;
+
+}
+
+
+
+
+#c {
+
+    position: absolute;
+
+    top: 0px;
+
+    bottom: 0px;
+
+    right: 0px;
+
+    width: 50px;
+
+}
